@@ -28,6 +28,12 @@
         
         <activity android:name="Chart"></activity>
         <activity android:name="MyTable"></activity>
+        <activity android:name="org.achartengine.chartdemo.demo.ChartDemo"></activity>
+        <activity android:name="org.achartengine.chartdemo.demo.chart.XYChartBuilder" />
+        <activity android:name="org.achartengine.chartdemo.demo.chart.PieChartBuilder" />
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name="org.achartengine.chartdemo.demo.GeneratedChartDemo"></activity>
+        
         
     </application>
 

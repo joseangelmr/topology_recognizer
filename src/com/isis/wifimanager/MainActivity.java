@@ -17,6 +17,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.achartengine.chartdemo.demo.ChartDemo;
+
 import com.isis.wifimanager.R.color;
 
 import android.annotation.SuppressLint;
@@ -122,7 +124,8 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 
 				grabar();
-				Intent intent = new Intent(MainActivity.this, Chart.class);
+//				Intent intent = new Intent(MainActivity.this, Chart.class);
+				Intent intent = new Intent(MainActivity.this, ChartDemo.class);
 				Bundle b = new Bundle();
 
 				intent.putExtras(b);
