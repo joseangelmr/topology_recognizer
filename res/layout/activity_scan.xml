@@ -58,15 +58,22 @@
         <ListView
             android:id="@+id/listView1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="316dp"
             android:background="@android:color/background_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="5dp" >
-            
-            
 
         </ListView>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Stop Scan" />
 
 </RelativeLayout>
